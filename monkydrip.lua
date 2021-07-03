@@ -7,4 +7,6 @@ pog.Name = "Delinquent"
 wait()
 game.Players.LocalPlayer.Data.Skin.Value = "Monky With Drip"
 wait()
+game:GetService("ReplicatedStorage").FavoriteWeapons.Delinquent.Value = "Potassium Power"
+wait()
 pog = game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
