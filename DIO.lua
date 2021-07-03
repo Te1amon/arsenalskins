@@ -9,4 +9,7 @@ game.Players.LocalPlayer.Data.Skin.Value = "DIO"
 wait()
 game:GetService("ReplicatedStorage").FavoriteWeapons.Delinquent.Value = "Fisticuffs"
 wait()
+game:GetService("ReplicatedStorage").ItemData.Quality.Default.Value = game:GetService("ReplicatedStorage").ItemData.Quality.Admin.Value
+wait()
+
 pog = game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
