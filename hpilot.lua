@@ -9,4 +9,6 @@ game.Players.LocalPlayer.Data.Skin.Value = "Holiday Pilot"
 wait()
 game:GetService("ReplicatedStorage").FavoriteWeapons.Delinquent.Value = "P90"
 wait()
+game:GetService("ReplicatedStorage").ItemData.Quality.Default.Value = game:GetService("ReplicatedStorage").ItemData.Quality.Admin.Value
+wait()
 pog = game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
